@@ -1,8 +1,8 @@
-package com.hello.BOOK_API.controller;
+package com.hello.book.controller;
 
-import com.hello.BOOK_API.dto.BookRequestDto;
-import com.hello.BOOK_API.dto.BookResponseDto;
-import com.hello.BOOK_API.service.BookService;
+import com.hello.book.dto.BookRequestDto;
+import com.hello.book.dto.BookResponseDto;
+import com.hello.book.service.BookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -54,5 +54,4 @@ public class BookController {
             @RequestParam(required = false) Integer maxPrice) {
         return ResponseEntity.ok(bookService.searchBooks(name, minPrice, maxPrice));
     }
-
 }

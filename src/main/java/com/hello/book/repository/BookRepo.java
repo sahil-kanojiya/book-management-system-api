@@ -1,6 +1,6 @@
-package com.hello.BOOK_API.repository;
+package com.hello.book.repository;
 
-import com.hello.BOOK_API.model.Book;
+import com.hello.book.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -17,5 +17,4 @@ public interface BookRepo extends JpaRepository<Book, Integer> {
     List<Book> searchByNameAndPriceRange(@Param("name") String name,
                                          @Param("minPrice") Integer minPrice,
                                          @Param("maxPrice") Integer maxPrice);
-
 }

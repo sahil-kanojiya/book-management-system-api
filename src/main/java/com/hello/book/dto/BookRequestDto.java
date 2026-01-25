@@ -1,4 +1,4 @@
-package com.hello.BOOK_API.dto;
+package com.hello.book.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

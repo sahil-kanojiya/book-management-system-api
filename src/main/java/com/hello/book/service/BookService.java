@@ -1,9 +1,9 @@
-package com.hello.BOOK_API.service;
+package com.hello.book.service;
 
-import com.hello.BOOK_API.dto.BookRequestDto;
-import com.hello.BOOK_API.dto.BookResponseDto;
-import com.hello.BOOK_API.model.Book;
-import com.hello.BOOK_API.repository.BookRepo;
+import com.hello.book.dto.BookRequestDto;
+import com.hello.book.dto.BookResponseDto;
+import com.hello.book.model.Book;
+import com.hello.book.repository.BookRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -77,5 +77,4 @@ public class BookService {
                 .publicationDate(book.getPublicationDate())
                 .build();
     }
-
 }

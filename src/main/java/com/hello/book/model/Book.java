@@ -1,12 +1,14 @@
-package com.hello.BOOK_API.model;
+package com.hello.book.model;
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDate;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "books_tbl")
 @Builder
@@ -28,5 +30,4 @@ public class Book {
 
     @Column(name = "publication_date")
     private LocalDate publicationDate;
-
 }

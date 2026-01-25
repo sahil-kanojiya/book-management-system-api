@@ -8,10 +8,10 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.hello</groupId>
-	<artifactId>BOOK_API</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>BOOK_API</name>
+	<groupId>com.hello.book</groupId>
+	<artifactId>book-web-api</artifactId>
+	<version>0.0.1</version>
+	<name>book-web_api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>

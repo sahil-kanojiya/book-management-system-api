@@ -1,4 +1,4 @@
-package com.hello.BOOK_API;
+package com.hello.book;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class BookApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BookApiApplication.class, args);
 	}
-
 }
